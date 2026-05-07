@@ -1,0 +1,38 @@
+.services{
+    margin-bottom: 115px;
+}
+
+.services .service-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service-header h2{
+    width: 400px;
+}
+
+.services .service-header .header-description{
+    display: flex;
+    gap: 31px;
+}
+
+
+.services .service-header .header-description button{
+    background-color: #00A4E5;
+    padding: 11px 29px;
+    color: white;
+    border: 1px solid transparent;
+    transition: .3s all;
+}
+
+.services .service-header .header-description button:hover{
+    background-color: transparent;
+    color: #00A4E5;
+    border: 1px solid #00A4E5;
+}
+
+.services .service-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}

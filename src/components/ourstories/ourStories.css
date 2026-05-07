@@ -1,0 +1,49 @@
+.story{
+  margin-top: 58px;
+  margin-bottom: 118px;
+}
+
+.story h1{
+  text-align: center;
+  margin-bottom: 80px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.our-stories-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.our-stories-content .description{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.our-stories-content .picture{
+    display: flex;
+    gap: 20px;
+}
+
+.our-stories-content .picture .item{
+    position: relative;
+    width: 140px;
+    height: 224px;
+}
+
+.our-stories-content .picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-stories-content .picture h2{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    width: 60px;
+}
